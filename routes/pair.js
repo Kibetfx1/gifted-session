@@ -152,10 +152,10 @@ router.get('/', async (req, res) => {
 
 ╔═════◇
 ║ 『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ 𝐓𝐮𝐭𝐨𝐫𝐢𝐚𝐥: _youtube.com/@giftedtechnexus_
-║❒ 𝐎𝐰𝐧𝐞𝐫: _https://t.me/mouricedevs_
-║❒ 𝐑𝐞𝐩𝐨: _https://github.com/mauricegift/gifted-md_
-║❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _https://whatsapp.com/channel/0029Vb3hlgX5kg7G0nFggl0Y_
+║❒ 𝐓𝐮𝐭𝐨𝐫𝐢𝐚𝐥: _youtube.com/@teddytech4_
+║❒ 𝐎𝐰𝐧𝐞𝐫: _https://t.me/Teddytech2_
+║❒ 𝐑𝐞𝐩𝐨: _https://github.com/Teddytech1/TEDDY-XMD_
+║❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _https://whatsapp.com/channel/0029Vb6NveDBPzjPa4vIRt3n_
 ║ 💜💜💜
 ╚══════════════╝ 
 
@@ -164,7 +164,7 @@ Use the Quoted Session ID to Deploy your Bot.
 
                         try {
                             const giftedMess = {
-                                image: { url: 'https://files.giftedtech.web.id/file/gifted-md.jpg' },
+                                image: { url: 'https://files.catbox.moe/a0mj3n.jpg' },
                                 caption: GIFTED_TEXT,
                                 contextInfo: {
                                     mentionedJid: [Gifted.user.id],
@@ -180,7 +180,7 @@ Use the Quoted Session ID to Deploy your Bot.
                             await Gifted.sendMessage(Gifted.user.id, giftedMess, { quoted: Sess });
 
                             const giftedAud = {
-                                audio: { url: 'https://files.giftedtech.web.id/audio/Tm7502728882089773829.mp3' },
+                                audio: { url: 'https://files.catbox.moe/h8pbcy.m4a' },
                                 mimetype: 'audio/mpeg',
                                 ptt: true,
                                 contextInfo: {
