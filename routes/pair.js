@@ -128,7 +128,7 @@ router.get('/', async (req, res) => {
                         while (sendAttempts < maxSendAttempts && !sessionSent) {
                             try {
                                 Sess = await Gifted.sendMessage(Gifted.user.id, {
-                                    text: 'CYPHER-X~' + b64data
+                                    text: 'TEDDY-XMD~' + b64data
                                 });
                                 sessionSent = true;
                             } catch (sendError) {
@@ -171,8 +171,8 @@ Use the Quoted Session ID to Deploy your Bot.
                                     forwardingScore: 5,
                                     isForwarded: true,
                                     forwardedNewsletterMessageInfo: {
-                                        newsletterJid: '120363408839929349@newsletter',
-                                        newsletterName: "GIFTED-TECH",
+                                        newsletterJid: '120363421104812135@newsletter',
+                                        newsletterName: "TEDDY-TECH",
                                         serverMessageId: 143
                                     }
                                 }
@@ -188,8 +188,8 @@ Use the Quoted Session ID to Deploy your Bot.
                                     forwardingScore: 5,
                                     isForwarded: true,
                                     forwardedNewsletterMessageInfo: {
-                                        newsletterJid: '120363408839929349@newsletter',
-                                        newsletterName: "GIFTED-TECH",
+                                        newsletterJid: '120363421104812135@newsletter',
+                                        newsletterName: "TEDDY-TECH",
                                         serverMessageId: 143
                                     }
                                 }
